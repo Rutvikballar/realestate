@@ -1,7 +1,7 @@
  <nav class="sidebar">
       <div class="sidebar-header">
         <a href="#" class="sidebar-brand">
-          Easy<span>Admin</span>
+          Admin<span>Panel</span>
         </a>
         <div class="sidebar-toggler not-active">
           <span></span>
@@ -83,7 +83,7 @@
                   <a href="{{ route('all.amenitie') }}" class="nav-link">All Amenitie</a>
                 </li>
                 <li class="nav-item">
-                  <a href="pages/email/read.html" class="nav-link">Add Amenitie</a>
+                  <a href="{{ route('add.amenitie') }}" class="nav-link">Add Amenitie</a>
                 </li>
                 
               </ul>
@@ -162,7 +162,7 @@
                   <a href="{{ route('all.agent') }}" class="nav-link">All Agent </a>
                 </li>
                 <li class="nav-item">
-                  <a href="pages/ui-components/alerts.html" class="nav-link">Add Agent</a>
+                  <a href="{{ route('add.agent') }}" class="nav-link">Add Agent</a>
                 </li>
                 
               </ul>
