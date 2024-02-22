@@ -218,13 +218,15 @@ class IndexController extends Controller
 
 
 
-    public function AllPropertySeach(Request $request){
+    public function AllPropertySearch(Request $request){
 
         $property_status = $request->property_status;
         $stype = $request->ptype_id; 
         $sstate = $request->state;
         $bedrooms = $request->bedrooms;
         $bathrooms = $request->bathrooms;
+        $rentproperty = Property::where('property_status','rent')->get();
+        $buyproperty = Property::where('property_status','buy')->get();
 
    $property = Property::where('status','1')->where('bedrooms',$bedrooms)->where('bathrooms', 'like' , '%' .$bathrooms. '%')->where('property_status',$property_status) 
         ->with('type','pstate')
@@ -236,7 +238,7 @@ class IndexController extends Controller
          })
         ->get();
 
-        return view('frontend.property.property_search',compact('property'));
+        return view('frontend.property.property_search',compact('property','rentproperty','buyproperty'));
 
     }// End Method 
 

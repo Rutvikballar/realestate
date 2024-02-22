@@ -455,7 +455,7 @@ Route::controller(AgentPropertyController::class)->group(function(){
    Route::post('/rent/property/search', [IndexController::class, 'RentPropertySeach'])->name('rent.property.search');
 
         // All Property Seach Option
-   Route::post('/all/property/search', [IndexController::class, 'AllPropertySeach'])->name('all.property.search');
+   Route::post('/all/property/search', [IndexController::class, 'AllPropertySearch'])->name('all.property.search');
 
 
  // Blog Details Route 
