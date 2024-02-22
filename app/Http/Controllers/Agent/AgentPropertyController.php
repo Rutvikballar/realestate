@@ -453,7 +453,7 @@ public function AgentUpdatePropertyThambnail(Request $request){
 
 
        $notification = array(
-            'message' => 'You have purchase Basic Package Successfully',
+            'message' => 'Package Purchased Successfully',
             'alert-type' => 'success'
         );
 

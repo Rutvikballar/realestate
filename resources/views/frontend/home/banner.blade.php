@@ -8,8 +8,8 @@ $ptypes = App\Models\PropertyType::latest()->get();
             <div class="auto-container">
                 <div class="inner-container">
                     <div class="content-box centred">
-                        <h2>Create Lasting Wealth Through Realshed</h2>
-                        <p>Amet consectetur adipisicing elit sed do eiusmod.</p>
+                        <h2>Create Lasting Wealth Through RealEstate</h2>
+                        <p>Elevate Your Living Experience with Us Where Every Key Opens Possibilities.</p>
                     </div>
                     <div class="search-field">
                         <div class="tabs-box">
