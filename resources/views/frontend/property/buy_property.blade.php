@@ -110,8 +110,8 @@
                                     <h5>Status Of Property</h5>
                                 </div>
                                 <ul class="category-list clearfix">
-    <li><a href="{{ route('rent.property') }}">For Rent <span>(200)</span></a></li>
-   <li><a href="{{ route('buy.property') }}">For Buy <span>(700)</span></a></li>
+    <li><a href="{{ route('rent.property') }}">For Rent <span>({{ count($rentproperty) }})</span></a></li>
+   <li><a href="{{ route('buy.property') }}">For Buy <span>({{ count($buyproperty) }})</span></a></li>
                                 </ul>
                             </div>
                              
@@ -200,12 +200,7 @@
                                
                             </div>
                             <div class="pagination-wrapper">
-                                <ul class="pagination clearfix">
-                                    <li><a href="property-list.html" class="current">1</a></li>
-                                    <li><a href="property-list.html">2</a></li>
-                                    <li><a href="property-list.html">3</a></li>
-                                    <li><a href="property-list.html"><i class="fas fa-angle-right"></i></a></li>
-                                </ul>
+                                {{ $property->links('vendor.pagination.custom') }}
                             </div>
                         </div>
                     </div>

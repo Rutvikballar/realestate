@@ -35,9 +35,9 @@
         <span class="designation">{{ $agent->username }}</span>
     </div>
     <ul class="social-list pull-right clearfix">
-        <li><a href="agents-details.html"><i class="fab fa-facebook-f"></i></a></li>
-        <li><a href="agents-details.html"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="agents-details.html"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin-in"></i></a></li>
     </ul>
 </div>
 <div class="text">
