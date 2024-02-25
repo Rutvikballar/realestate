@@ -14,8 +14,8 @@
                                     <h3>About</h3>
                                 </div>
                                 <div class="text">
-                                    <p>Lorem ipsum dolor amet consetetur adi pisicing elit sed eiusm tempor in cididunt ut labore dolore magna aliqua enim ad minim venitam</p>
-                                    <p>Quis nostrud exercita laboris nisi ut aliquip commodo.</p>
+                                    <p>Welcome to realestate, where passion meets innovation. Since 15, we've been dedicated to Consumers. Our commitment to excellence and  drives us to deliver the Services that redefine realestate industry.</p>
+                                    <p>Join us on this journey of what sets you apart. Elevate your experience with us.</p>
                                 </div>
                             </div>
                         </div>
@@ -30,7 +30,7 @@
                                         <li><a href="index.html">Listing</a></li>
                                         <li><a href="index.html">How It Works</a></li>
                                         <li><a href="index.html">Our Services</a></li>
-                                        <li><a href="index.html">Our Blog</a></li>
+                                        <li><a href="{{ route('blog.list') }}">Our Blog</a></li>
                                         <li><a href="index.html">Contact Us</a></li>
                                     </ul>
                                 </div>

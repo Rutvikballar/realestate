@@ -2,7 +2,7 @@
 @section('main')
 
 @section('title')
-  Easy Real Estate Complete Project  
+  Real Estate Property Listing  
 @endsection
 
         <!-- banner-section -->

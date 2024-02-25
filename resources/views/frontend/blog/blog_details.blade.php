@@ -67,7 +67,7 @@
 
 <div class="comments-area">
     <div class="group-title">
-        <h4>3 Comments</h4>
+        <h4>{{ App\Models\Comment::where('post_id', $blog->id)->count() }} Comments</h4>
     </div>
     <div class="comment-box">
 

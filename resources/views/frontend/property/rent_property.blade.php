@@ -1,7 +1,7 @@
 @extends('frontend.frontend_dashboard')
 @section('main')
 @section('title')
-  Rent Property Easy RealEstate  
+  Rent Property RealEstate  
 @endsection
 
  <!--Page Title-->
