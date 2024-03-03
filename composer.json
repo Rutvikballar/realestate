@@ -51,5 +51,13 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "require": {
+        "barryvdh/laravel-dompdf": "*",
+        "haruncpi/laravel-id-generator": "*",
+        "intervention/image": "2.7.*",
+        "maatwebsite/excel": "*",
+        "symfony/routing": "*",
+        "vlucas/phpdotenv": "*"
+    }
 }
